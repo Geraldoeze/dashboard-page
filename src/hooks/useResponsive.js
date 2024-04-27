@@ -3,6 +3,9 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 // ----------------------------------------------------------------------
 
+
+// Media query viewport using material ui settings
+
 export default function useResponsive(query, start, end) {
   const theme = useTheme();
 

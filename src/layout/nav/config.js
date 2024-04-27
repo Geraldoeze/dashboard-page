@@ -6,6 +6,7 @@ import {
 } from "../../components/UIElements/svgIcons";
 import React from "react";
 
+// navigation configuration
 export const navConfig = [
   {
     id: 1,

@@ -5,12 +5,11 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import { useTheme } from "@mui/material/styles";
 
 
+// Notification icon 
 export default function BadgeNotification() {
  
   const [invisible, setInvisible] = React.useState(false);
-  const theme = useTheme();
-
-  
+  const theme = useTheme();  
 
   return (
     <Box

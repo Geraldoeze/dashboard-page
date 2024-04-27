@@ -3,7 +3,7 @@ import React from "react";
 import { useTheme } from "@mui/material/styles";
 import { ClockIcon, StarIcon, VideoIcon } from "../UIElements/svgIcons";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { ApexChart } from "../charts/Apexchart";
+import { TimeSpent } from "../charts/TimeSpent";
 import useResponsive from "../../hooks/useResponsive";
 
 //
@@ -38,9 +38,9 @@ const BottomDashboardContents = () => {
         }}
       >
         <Stack>
-          <Typography>Time Spent</Typography>
+          <Typography variant="body2">Time Spent</Typography>
         </Stack>
-        <ApexChart />
+        <TimeSpent />
       </Box>
       <Box
         sx={{

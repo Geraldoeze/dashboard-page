@@ -121,6 +121,7 @@ const SmallScreenDashboardLayout = ({ children }) => {
         sx={{
           flexGrow: 1,
           overflowY: "auto",
+          
           paddingTop: "1rem",
           paddingX: 3,
           paddingBottom: "4rem",

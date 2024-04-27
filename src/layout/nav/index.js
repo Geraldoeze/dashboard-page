@@ -15,6 +15,8 @@ const Navigation = () => {
   const isCurrentPath = (path) => {
     return location.pathname.startsWith(path);
   };
+
+  // function to handle route navigation
   const handlePathNavigate = (path) => {
     navigate(path);
   };
@@ -85,12 +87,9 @@ export default Navigation;
 
 export const SmallScreenNavigation = () => {
   const theme = useTheme();
-  // const isMedium = useResponsive("down", "md", "xl");
-  // const isSmall = useResponsive("down", "sm", "xl");
   const location = useLocation();
   const navigate = useNavigate();
 
-  //   function to check route path
   const isCurrentPath = (path) => {
     return location.pathname.startsWith(path);
   };

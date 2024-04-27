@@ -6,7 +6,7 @@ import Message from "../pages/Message";
 import Wallet from "../pages/Wallet";
 import Chart from "../pages/Chart";
 
-//
+// Routes for page navigation
 export default function Router() {
   return useRoutes([
     {

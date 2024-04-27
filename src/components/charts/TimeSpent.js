@@ -3,7 +3,7 @@ import ReactApexChart from "react-apexcharts";
 import { useTheme } from "@mui/material/styles";
 
 
-export const ApexChart = () => {
+export const TimeSpent = () => {
   const theme = useTheme();
 
   const [state, setState] = useState({

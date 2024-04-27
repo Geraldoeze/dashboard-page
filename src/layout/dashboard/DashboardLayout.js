@@ -32,8 +32,8 @@ const DashboardLayout = () => {
               padding:  "1.5rem",
             }}
           >
-            <Header />
-            <Outlet />
+            <Header />          
+            <Outlet />       
           </Box>
         </Box>
       ) : (

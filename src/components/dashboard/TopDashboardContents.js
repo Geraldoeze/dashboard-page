@@ -36,6 +36,7 @@ const TopDashboardContents = () => {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
+       
       }}
     >
       {mock_data?.map((val, id) => (

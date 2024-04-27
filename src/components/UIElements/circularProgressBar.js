@@ -5,7 +5,7 @@ import { Box } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 
 export const CircleProgress = () => {
-  const percentage = 66;
+  const percentage = 38;
   const theme = useTheme();
 
   return (

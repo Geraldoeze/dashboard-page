@@ -23,4 +23,5 @@ export const lightGeneralColors = {
   },
 };
 
+// dark theme color settings
 export const darkGeneralColors = {};

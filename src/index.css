@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  color: #000013;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-family: "Outfit", sans-serif;
+  color: #000013;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+.apexcharts-legend {
+  display: none !important;
+}
+
+
+/* For WebKit based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 2px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cccfd1eb; /* Thumb color */
+}
+
+/* For Firefox */
+/* Note: Custom styling of scrollbars is not supported in Firefox, 
+       but you can style the overlay scrollbars */
+html {
+  scrollbar-width: 1px;
+  scrollbar-color: #cccfd1eb #fff;
+}
+
+
+/* contents for medium dashboard screen */
+.content {
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide-in-right {
+  transform: translateX(0);
+}
+
+.slide-out-left {
+  transform: translateX(-100%);
+}
+
+.slide-in-left {
+  transform: translateX(0);
+}
+
+.slide-out-right {
+  transform: translateX(100%);
+}

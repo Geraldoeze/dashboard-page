@@ -6,8 +6,8 @@ export const HomeIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width= {isMedium ? "2em" : "1.2em"}
-      height= {isMedium ? "2em" : "1.2em"}
+      width= {isMedium ? "1.8em" : "1.2em"}
+      height= {isMedium ? "1.8em" : "1.2em"}
       viewBox="0 0 24 24"
     >
       <path
@@ -24,8 +24,8 @@ export const CircleIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width= {isMedium ? "2em" : "1.2em"}
-      height= {isMedium ? "2em" : "1.2em"}
+      width= {isMedium ? "1.8em" : "1.2em"}
+      height= {isMedium ? "1.8em" : "1.2em"}
       viewBox="0 0 20 20"
     >
       <path
@@ -42,8 +42,8 @@ export const MessageIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width= {isMedium ? "2em" : "1.2em"}
-      height= {isMedium ? "2em" : "1.2em"}
+      width= {isMedium ? "1.8em" : "1.2em"}
+      height= {isMedium ? "1.8em" : "1.2em"}
       viewBox="0 0 24 24"
     >
       <path
@@ -76,8 +76,8 @@ export const WalletIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width= {isMedium ? "2em" : "1.2em"}
-      height= {isMedium ? "2em" : "1.2em"}
+      width= {isMedium ? "1.8em" : "1.2em"}
+      height= {isMedium ? "1.8em" : "1.2em"}
       viewBox="0 0 512 512"
     >
       <path

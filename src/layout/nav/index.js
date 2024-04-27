@@ -4,7 +4,6 @@ import { Box } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import { useLocation, useNavigate } from "react-router-dom";
 import { MainLogo, MainLogoTwo } from "../../components/UIElements/svgIcons";
-import useResponsive from "../../hooks/useResponsive";
 
 const Navigation = () => {
   const theme = useTheme();

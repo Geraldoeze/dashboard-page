@@ -6,7 +6,7 @@ import { useTheme } from "@mui/material/styles";
 export const TimeSpent = () => {
   const theme = useTheme();
 
-  const [state, setState] = useState({
+  const [detail, setDetail] = useState({
     series: [
       { name: "user 1", data: [31, 40, 28, 51, 42, 109, 100] },
       { name: "user 2", data: [11, 32, 45, 32, 34, 52, 41] },
@@ -53,8 +53,8 @@ export const TimeSpent = () => {
     <div>
       <div id="chart">
         <ReactApexChart
-          options={state.options}
-          series={state.series}
+          options={detail.options}
+          series={detail.series}
           type="area"
           height={200}
         />

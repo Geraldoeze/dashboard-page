@@ -19,9 +19,9 @@ const StatisticChart = () => {
       plotOptions: {
         bar: {
           columnWidth: "10%",
-          borderRadius: 4,
-          borderRadiusTopLeft: 10,
-          borderRadiusTopRight: 10,
+          borderRadius: isMedium ? 0 : 4,
+          borderRadiusTopLeft: isMedium ? 2 : 10,
+          borderRadiusTopRight: isMedium ? 2 : 10,
         },
       },
       stroke: {
